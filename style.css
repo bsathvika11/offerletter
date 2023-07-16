@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+.container {
+  width: 50%;
+  margin: 5px 400px;
+  height: 900px;
+  box-shadow: -3px -3px 2px rgba(0, 0, 0, 0.08), 3px 5px 2px rgba(0, 0, 0, 0.08);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 50px 50px 20px;
+}
+.nav img {
+  width: 25%;
+}
+.comp h3 {
+  color: #0000ff;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.comp p {
+  font-size: 0.8rem;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.head h1 {
+  color: #0000ff;
+  font-size: 2.7rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  border-bottom: 2px solid #85acd5;
+}
+.head h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid #85acd5;
+  font-weight: 800;
+}
+.content {
+  padding: 20px 50px;
+}
+.content h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.content p {
+  font-size: 1.25rem;
+  padding: 20px;
+}
+.content p b {
+  font-weight: 800;
+}
+.sponser {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sponser img {
+  width: 20%;
+}
+.sign img {
+  width: 50%;
+}
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
